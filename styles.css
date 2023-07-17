@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
+
+body {
+    background-color: #00ff00;
+    /* Neon green background */
+    font-family: 'Comic Sans MS';
+    /* Comic Sans everywhere! */
+}
+
+.frame {
+    border: 5px solid #ff00ff;
+    /* Neon pink borders */
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+marquee {
+    color: #ff0000;
+    /* Red, of course */
+    font-size: 30px;
+    background-color: #ffff00;
+    /* Neon yellow */
+}
+
+h1 {
+    color: #0000ff;
+    /* Bright blue */
+    font-size: 60px;
+    text-align: center;
+    font-family: Kablammo;
+    text-shadow: 1px 4px #000;
+}
+
+.fire, .snoopy, .spongebob {
+    height: 100px;
+}
+
+.fire-small {
+    height: 30px;
+}
+
+p {
+    color: #000;
+    /* Black for contrast */
+    font-size: 20px;
+}
+
+.construction {
+    width: 300px;
+    height: 300px;
+}
+
+.beanie {
+    max-height: 180px;
+    width: 250px;
+    border: 10px double #ff00ff;
+    margin: 20px;
+    padding: 20px;
+    background-color: #00ff00;
+}
+
+#view-counter, #collection {
+    border: 10px double #ff00ff;
+    margin: 20px;
+    padding: 20px;
+    background-color: #00ff00;
+}
+
+
+.price-movers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrow {
+    max-height: 80px;
+}
+
+.price-movers div {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+
+div img:hover {
+    transform: scale(1.2);
+}
+
+#beanie-scroll img {
+    height: 100px;
+}
+
+@keyframes colorchange-1 {
+    0% {
+        color: red;
+    }
+
+    33% {
+        color: blue;
+    }
+
+    66% {
+        color: green;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+@keyframes colorchange-2 {
+    0% {
+        color: blue;
+    }
+
+    33% {
+        color: yellow;
+    }
+
+    66% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+@keyframes colorchange-3 {
+    0% {
+        color: green;
+    }
+
+    33% {
+        color: orange;
+    }
+
+    66% {
+        color: purple;
+    }
+
+    100% {
+        color: green;
+    }
+}
+
+#statements>p {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#statement-1 {
+    animation-name: colorchange-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#statement-2 {
+    animation-name: colorchange-2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#statement-3 {
+    animation-name: colorchange-3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+footer>p {
+    color: yellow;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.positive {
+    color: green;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+.negative {
+    color: red;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
