@@ -3,14 +3,11 @@
 
 body {
     background-color: #00ff00;
-    /* Neon green background */
     font-family: 'Comic Sans MS';
-    /* Comic Sans everywhere! */
 }
 
 .frame {
     border: 5px solid #ff00ff;
-    /* Neon pink borders */
     padding: 10px;
     margin: 10px;
     text-align: center;
@@ -18,15 +15,12 @@ body {
 
 marquee {
     color: #ff0000;
-    /* Red, of course */
     font-size: 30px;
     background-color: #ffff00;
-    /* Neon yellow */
 }
 
 h1 {
     color: #0000ff;
-    /* Bright blue */
     font-size: 60px;
     text-align: center;
     font-family: Kablammo;
@@ -43,7 +37,6 @@ h1 {
 
 p {
     color: #000;
-    /* Black for contrast */
     font-size: 20px;
 }
 
